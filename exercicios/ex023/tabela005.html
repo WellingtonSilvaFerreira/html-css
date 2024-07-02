@@ -21,11 +21,22 @@
             border: 1px solid black;
             padding: 8px;
         }
+        col.cnome{
+            background-color: aqua;
+        }
+        col.cgrupo{
+            background-color: rgba(0, 0, 255, 0.562);
+        }
     </style>
 </head>
 <body>
     <h1>Exercício de Tabela</h1>
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
