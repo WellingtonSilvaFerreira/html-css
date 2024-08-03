@@ -24,6 +24,7 @@ Grandes telas: acima de 1200px */
             img#tv{display: none;}
 
     main{
+        width: 90vw;
         border: 2px solid black;
     }
     main::after{
