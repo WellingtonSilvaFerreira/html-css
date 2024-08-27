@@ -6,11 +6,11 @@
     <title>Flexible Box</title>
 
     <style>
-        div.container{
+        div.container1{
             background-color: lightsalmon;
             
             display: flex;
-            flex-direction: row-reverse;
+            flex-direction: row;
         }
         
         div.container2{
@@ -18,7 +18,21 @@
             margin-top: 5px;
 
             display: flex;
-            flex-direction: row;
+            flex-direction: row-reverse;
+        }
+        div.container3{
+            background-color: lightsalmon;
+            margin-top: 5px;
+
+            display: flex;
+            flex-direction: column;
+        }
+        div.container4{
+            background-color: lightsalmon;
+            margin-top: 5px;
+
+            display: flex;
+            flex-direction: column-reverse;
         }
 
         div.item{
@@ -30,7 +44,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container1">
         <div class="item">A</div>
         <div class="item">B</div>
         <div class="item">C</div>
@@ -40,6 +54,24 @@
         <div class="item">G</div>
     </div>
     <div class="container2">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+    <div class="container3">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+    <div class="container4">
         <div class="item">A</div>
         <div class="item">B</div>
         <div class="item">C</div>
