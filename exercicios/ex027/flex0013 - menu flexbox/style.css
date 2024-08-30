@@ -65,12 +65,14 @@ main{
 
 @media (max-width: 700px){
 
-    
-    .container a{
+    .container{
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .item a{
+        display: flex;
+        flex-direction: column;
         width: 90dvw;
         text-align: center;
         margin: 5px;
